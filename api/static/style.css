@@ -1,0 +1,53 @@
+.c-bg { background-color: #e1e5f2 !important; }
+.c-color { color: black !important; }
+.body { background-color: white; color: black; }
+.c-el {
+  background-color: #f7f7f7 !important;
+  color: black !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .c-el {
+    background-color: #212529 !important;
+    color: white !important;
+  }
+  .c-bg { background-color: #212529 !important; }
+  .c-color { color: white !important; }
+  .body { background-color: black; color: white; }
+}
+
+ .datepicker.dropdown-menu {
+   left: 50% !important;
+   transform: translateX(-50%);
+}
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@font-face {
+    font-family: 'Ownglyph_corncorn-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font {
+    font-family: 'Ownglyph_corncorn-Rg';
+}
